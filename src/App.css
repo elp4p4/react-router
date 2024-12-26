@@ -1,0 +1,130 @@
+body{
+  background-color: #242424;
+}
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/729ce5c2-d831-436a-8c9d-f38fea0b99b3/web/TN-en-20241209-TRIFECTA-perspective_65a9dda0-52a0-4f2f-8ee6-ffc936de3d84_large.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+.app-content{
+  margin-top: 10vh;
+  margin-bottom: 200px;
+}
+
+h1 {
+  color: #333;
+}
+
+.filter-container {
+  margin: 20px 0;
+  
+}
+
+.filter-input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
+
+.movie-rating{
+  font-weight: bolder;
+  color: #757575;
+}
+
+.add-movie-container {
+  margin: 20px 0;
+}
+
+.add-movie-input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.add-movie-button {
+  padding: 10px 20px;
+  background-color: #ffd000;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.add-movie-button:hover {
+  background-color: #ffd000be;
+}
+
+
+.description:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/729ce5c2-d831-436a-8c9d-f38fea0b99b3/web/TN-en-20241209-TRIFECTA-perspective_65a9dda0-52a0-4f2f-8ee6-ffc936de3d84_large.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+.my-5{
+background-color: #ffffff;
+padding: 5%;
+border-radius: 40px;
+}
