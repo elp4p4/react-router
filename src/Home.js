@@ -9,8 +9,8 @@ const Home = () => {
     <div>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/*" element={<Errors />} />
         <Route path="/movie/:id" element={<Description />} />
+        <Route path="/*" element={<Errors />} />
       </Routes>
     </div>
   );
